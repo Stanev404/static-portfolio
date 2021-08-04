@@ -105,12 +105,15 @@ html,body{
     color: rgb(142, 201, 83);
 }
 .fa-sitemap{
-    color: #5c85e8eb;
+	color: rgb(142, 201, 83);
+}
+.fa-shield-alt{
+	color: #375fe7; 
 }
 .fa-university{
     color: rgba(0, 0, 0, 0.47);
 }
-.fa-java, .fa-leaf, .fa-sitemap, .fa-university{
+.fa-java, .fa-leaf, .fa-sitemap, .fa-university, .fa-shield-alt{
     font-size: 64px;
     margin: 16px;
 }

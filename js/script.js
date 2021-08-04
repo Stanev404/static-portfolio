@@ -79,7 +79,7 @@ $(document).ready(function () {
     }
 
     var typed = new Typed('.typewrite', {
-        strings: ["Java web developer.", "UX designer.", "Stockholm University student."],
+        strings: ["Java web developer.", "Cybersecurity enthusiast.", "Stockholm University graduate."],
         loop: true,
         typeSpeed: 40,
         backSpeed: 40
