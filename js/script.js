@@ -64,6 +64,13 @@ $(document).ready(function () {
         } else {
             $('.to-top').fadeOut(duration);
         }
+        
+	/*if ($(this).scrollTop() > 500) {
+            $('.intro-text').fadeIn(duration);
+        } else {
+            $('.intro-text').fadeOut(duration);
+        }*/
+        
     });
     $('#scr').click(function () {
 
@@ -71,6 +78,9 @@ $(document).ready(function () {
             scrollTop: 0
         }, duration);
     });
+    
+   
+    
     // fixes the facebook #_=_ append to url
     if (window.location.hash == '#_=_'){
         history.replaceState
